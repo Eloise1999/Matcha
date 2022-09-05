@@ -1,0 +1,145 @@
+html{
+    background-color: rgb(113, 129, 109);
+    box-sizing: border-box;
+}
+
+*,*:before,*:after {
+	box-sizing: inherit
+}
+
+body{
+    font-family: Tahoma, sans-serif;
+    font-size: 87%;
+}
+
+.background{
+    background-color: white;
+    max-width: 940px;
+    /* padding-left: 40px; */
+    /* padding-right: 40px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* header */
+.header{
+    padding-top: 10px;
+    background:white ;
+    background-image: url("https://images.pexels.com/photos/8004565/pexels-photo-8004565.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center right;
+    color: #596A5F;
+}
+
+.headtitle{
+    font-size: 165%;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-left: 40px;
+}
+
+.headtext{
+    margin-left: 40px;
+}
+
+/* nav */
+.nav{
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.navlist{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navlist-item{
+    list-style: none;
+    margin-right: 10px;
+}
+
+.navlist-itemlink{
+    display: block;
+    font-weight: bold;
+    padding: 10px 16px 10px 16px;
+    border: 2px solid rgb(113, 129, 109);
+    border-bottom: none;
+    text-decoration: none;
+    color: rgb(113, 129, 109);
+    background-color: rgb(201, 204, 193);
+}
+
+
+/* .navlist-sub */
+.navlist-sub{
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    display: none;
+}
+
+.navsubitem{
+    list-style: none;
+}
+
+.navsublink{
+    display: block;
+    padding: 10px 16px 10px 16px;
+    border: 2px solid rgb(113, 129, 109);
+    border-bottom: none;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(113, 129, 109);
+}
+
+/* nav-hover */
+.navlist-itemlink:hover{
+    color: white;
+    background-color: rgb(113, 129, 109);
+}
+
+.navlist-item:hover .navlist-sub{
+    display: block;
+}
+
+.navlist-item:hover> .navlist-itemlink{
+    background-color: rgb(113, 129, 109);
+    color: white;
+}
+
+.navlist-sub .navsublink:hover{
+    background-color: #596A5F;
+}
+
+.aside {
+    padding: 0px;
+}
+
+/* content */
+.contentArea{
+    display: flex;
+    border-top: 3px solid rgb(113, 129, 109);
+    border-bottom: 3px solid rgb(113, 129, 109);
+    margin-left: 40px;
+}
+
+.article{
+    width: 66%;
+    padding: 10px;
+}
+
+.aside{
+    width: 34%;
+    padding: 25px;
+    font-size: 87%;
+    background-color: rgb(158, 169, 162);
+}
+
+/* footer */
+.footer{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #596A5F;
+}
